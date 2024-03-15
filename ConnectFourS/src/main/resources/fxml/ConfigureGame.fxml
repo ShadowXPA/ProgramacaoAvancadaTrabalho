@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane styleClass="main" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.isec.a2019112789.connect4s.game.ui.gui.ConfigureGameController">
+    <children>
+        <VBox styleClass="mainContent">
+            <children>
+                <ScrollPane styleClass="scrPane">
+                    <content>
+                        <FlowPane fx:id="tilePlayers" prefWrapLength="240.0" styleClass="playerPane">
+                            <children>
+                                <!--<VBox fx:id="vBoxPlayer" />-->
+                            </children>
+                        </FlowPane>
+                    </content>
+                </ScrollPane>
+                <Button fx:id="btnAddPlayer" mnemonicParsing="false" onAction="#onBtnAddPlayer" styleClass="btn" text="Add Player" />
+                <HBox styleClass="mainContent2">
+                    <children>
+                        <Button fx:id="btnStartGame" mnemonicParsing="false" onAction="#onBtnStartGame" styleClass="btn" text="Start Game" />
+                        <Button fx:id="btnBack" mnemonicParsing="false" onAction="#onBtnBack" styleClass="btn" text="Back" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+    <stylesheets>
+        <URL value="@../css/Main.css" />
+        <URL value="@../css/ConfigureGame.css" />
+    </stylesheets>
+</Pane>

@@ -1,0 +1,103 @@
+.btn {
+    -fx-background-color: #3D3D3D;
+    -fx-padding: 3 22 3 22;
+    -fx-text-fill: #FFFFFF;
+}
+
+.btn:hover {
+    -fx-background-color: #969494;
+}
+
+.btn:armed {
+    -fx-background-color: #626262;
+}
+
+Label {
+    -fx-text-fill: #DDDDDD;
+}
+
+.main {
+    -fx-background-color: #282828;
+    -fx-text-fill: #FFFFFF;
+}
+
+.mainContent {
+    -fx-spacing: 14;
+    -fx-padding: 22;
+    -fx-alignment: center;
+}
+
+.mainContent2 {
+    -fx-spacing: 14;
+}
+
+.board {
+    -fx-background-color: midnightblue;
+    -fx-padding: 14;
+    -fx-vgap: 14;
+    -fx-hgap: 14;
+}
+
+.piece {
+    -fx-min-height: 30;
+    -fx-min-width: 30;
+    -fx-max-height: 30;
+    -fx-max-width: 30;
+    -fx-background-radius: 50%;
+}
+
+.empty, .special {
+    -fx-background-color: #282828;
+}
+
+.red {
+    -fx-background-color: red;
+}
+
+.yellow {
+    -fx-background-color: yellow;
+}
+
+.green {
+    -fx-background-color: green;
+}
+
+.blue {
+    -fx-background-color: blue;
+}
+
+.magenta {
+    -fx-background-color: magenta;
+}
+
+.white {
+    -fx-background-color: white;
+}
+
+.black {
+    -fx-background-color: black;
+}
+
+.orange {
+    -fx-background-color: orange;
+}
+
+.pink {
+    -fx-background-color: pink;
+}
+
+.cyan {
+    -fx-background-color: cyan;
+}
+
+.purple {
+    -fx-background-color: purple;
+}
+
+.gold {
+    -fx-background-color: gold;
+}
+
+.silver {
+    -fx-background-color: silver;
+}

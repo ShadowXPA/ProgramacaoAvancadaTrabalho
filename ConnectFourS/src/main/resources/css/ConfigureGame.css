@@ -1,0 +1,12 @@
+.scrPane {
+    -fx-hbar-policy: never;
+    -fx-min-height: 250;
+    -fx-min-width: 250;
+    -fx-max-height: 250;
+    -fx-max-width: 250;
+}
+
+.playerPane {
+    -fx-max-width: 240;
+    -fx-min-width: 240;
+}

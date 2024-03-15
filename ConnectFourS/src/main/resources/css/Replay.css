@@ -1,0 +1,7 @@
+.boardSpace {
+    -fx-min-height: 300;
+    -fx-min-width: 300;
+    -fx-max-height: 300;
+    -fx-max-width: 300;
+    -fx-alignment: center;
+}
